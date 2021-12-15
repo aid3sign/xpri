@@ -10,7 +10,7 @@ function draw() {
 
   for (let i = 0; i < 500; i += 5) {
     noFill()
-    stroke('white')
+    stroke('yellow')
     strokeWeight(3)
     ellipse(500, 500, i, i)
 
