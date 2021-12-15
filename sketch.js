@@ -8,7 +8,7 @@ function setup() {
 function draw() {
   background('black');
 
-  for (let i = 0; i < 1000; i += 5) {
+  for (let i = 0; i < 500; i += 5) {
     noFill()
     stroke('white')
     strokeWeight(3)
