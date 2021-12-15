@@ -15,7 +15,7 @@ function draw() {
     ellipse(500, 500, i, i)
 
     stroke('black')
-    strokeWeight(5)
+    strokeWeight(10)
     ellipse(x, 500, 500 - i, 500 - i)
 
   }
