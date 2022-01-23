@@ -2,16 +2,16 @@ let x = 0
 
 function setup() {
   createCanvas(1920, 1080);
-  frameRate (30);
+  frameRate (20);
 }
 
 function draw() {
   background('black');
 
-  for (let i = 0; i < 500; i += 5) {
+  for (let i = 0; i < 1000; i += 25) {
     noFill()
-    stroke('yellow')
-    strokeWeight(3)
+    stroke('white')
+    strokeWeight(1)
     ellipse(500, 500, i, i)
 
     stroke('black')
